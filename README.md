@@ -16,8 +16,7 @@ UniRet/
 │   ├── JSON_files/              # Raw JSON responses from EBI API
 │   ├── Variations/              # Parsed and flattened CSVs
 │   └── sort/                    # CSVs sorted into folders by 'type'
-├── UniRet_SNP.py                # Main script for data retrieval and processing
-├── integrated.py                # Additional processing scripts
+├── UniRet_SNP.py                # Main script for data retrieval and processing        
 ├── Uni_to_info.ipynb            # Jupyter notebook for UniProt information retrieval
 ├── parsing_genomic.ipynb        # Jupyter notebook for genomic data parsing
 ├── requirements.txt             # Python dependencies
@@ -83,7 +82,6 @@ For each UniProt ID:
 
 # 🧪 Additional Tools
 
-- **UniRet_SNP.py**: Contains additional processing scripts for extended functionalities.
 - **Uni_to_info.ipynb**: Jupyter notebook for retrieving UniProt information.
 - **parsing_genomic.ipynb**: Jupyter notebook for parsing genomic data.
 
