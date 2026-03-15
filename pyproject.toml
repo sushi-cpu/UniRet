@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uniret"
+version = "1.0.0"
+description = "UniProt SNP variation retrieval and processing toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["uniprot", "snp", "bioinformatics", "ebi", "proteomics"]
+
+dependencies = [
+    "click>=8.1",
+    "requests>=2.31",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+uniret = "uniret.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uniret*"]
