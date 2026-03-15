@@ -7,9 +7,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/sushi-cpu/UniRet.git
-cd UniRet
-pip install -e .
+pip install uniret 
 ```
 
 After install, the `uniret` command is available globally.
